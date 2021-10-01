@@ -3,17 +3,18 @@ const axios = require('axios');
 export default {
     data(){
         return {
+            //Array que es enviado al frontent.
             slides: []
         }
     },
     components : {
     },
-    //cuando se carga la pagina se llama el metodo para listar los clientees
+    //Cada que se carga la página se ejecutan los metodos en mounted()
     mounted() {
         this.obtenerImagenes()
     },
     methods: {
-
+        //GET: Solicitud a la API
         obtenerImagenes() {
             let url = "http://localhost:3001/images";
             axios.get(url).then(respuesta => {
