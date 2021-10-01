@@ -22,6 +22,7 @@ How it works
 Mediante una solicitud POST(/upload) de la API de backend se pueden enviar distintos tipos de archivo de imagen, estas son guardadas localmente.
 Mediante una solicitud GET(/images) de la imagen de backend, escanea el folder donde estan almacenadas las imagenes, devolviendonos un array con el nombre de cada imagen, y a cada objeto se le concatena un http://localhost:8080/
 Se monta un servidor local ubicada en el folder de las imagenes.
+![Serverimagenes](https://res.cloudinary.com/didqnjtpy/image/upload/v1633119666/4_yyyfum.png)
 De parte del frontend, hago una solicitud GET(/images) obteniendo un JSON con sus rutas, luego asignamos el JSON a una variable tipo array[] para posteriormente enviarlo al HTML y listando las imagenes en el Slider(Carousel)
 
 Issues
