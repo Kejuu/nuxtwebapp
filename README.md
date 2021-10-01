@@ -1,4 +1,4 @@
-![Phoneview](https://raw.githubusercontent.com/Kejuu/nuxtwebapp/main/readme/1.png?token=ALTTPK6Y66E67UW5GMVGSJLBK5SB2) ![Desktopview](https://raw.githubusercontent.com/Kejuu/nuxtwebapp/main/readme/2.gif?token=ALTTPK6M3XQTUIINAMBIOOTBK5SLC)
+![Phoneview](https://res.cloudinary.com/didqnjtpy/image/upload/v1633119092/1_zcpzqu.png) ![Desktopview](https://res.cloudinary.com/didqnjtpy/image/upload/v1633119093/2_mmg4gi.gif)
 
 Librerias usadas: 
 FRONTENT
@@ -16,7 +16,7 @@ BACKEND
 
 PWA
 Una de las funcionalidades de un PWA.
-![PWA](https://raw.githubusercontent.com/Kejuu/nuxtwebapp/main/readme/3.png?token=ALTTPK4STS3ZKN5MSCQ7ZX3BK5SFK)
+![PWA](https://res.cloudinary.com/didqnjtpy/image/upload/v1633119092/3_ewpx7d.png)
 
 How it works
 Mediante una solicitud POST(/upload) de la API de backend se pueden enviar distintos tipos de archivo de imagen, estas son guardadas localmente.
